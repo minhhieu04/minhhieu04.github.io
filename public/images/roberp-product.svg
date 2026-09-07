@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" fill="none">
+  <title>ROBERP — a connected business workspace</title>
+  <desc>Editorial interface illustration, not a product screenshot. A company selector, weekly planning and shared documents represent business workflows. All content is fictional.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0B1527" flood-opacity=".18"/></filter>
+    <clipPath id="window"><rect x="61" y="47" width="638" height="336" rx="12"/></clipPath>
+  </defs>
+  <rect width="760" height="440" rx="20" fill="#182332"/>
+  <path d="M38 105H722M38 335H722" stroke="#2D3B4C"/>
+  <rect x="84" y="35" width="592" height="336" rx="12" fill="#52647A" opacity=".36"/>
+  <g filter="url(#shadow)">
+    <rect x="61" y="47" width="638" height="336" rx="12" fill="#FAF9F5"/>
+    <g clip-path="url(#window)">
+      <path d="M61 47H211V383H61Z" fill="#243651"/>
+      <path d="M211 47H699V99H211Z" fill="#FFFFFF"/>
+      <path d="M211 99H699" stroke="#E4E6E9"/>
+      <g font-family="Arial,Helvetica,sans-serif">
+        <text x="82" y="81" fill="#FFFFFF" font-size="21" font-weight="700" letter-spacing="-.8">ROBERP</text>
+        <text x="236" y="79" fill="#647185" font-size="11">Espace de travail</text>
+        <circle cx="667" cy="73" r="12" fill="#E9E5DB"/>
+        <path d="M663 73H671M667 69V77" stroke="#647185" stroke-width="1.5"/>
+        <text x="236" y="135" fill="#243651" font-size="23" font-weight="700" letter-spacing="-.6">Planning</text>
+        <text x="236" y="155" fill="#75808C" font-size="10">Une vue partagée du travail à venir.</text>
+        <rect x="581" y="116" width="92" height="28" rx="6" fill="#E9EDF4"/>
+        <text x="602" y="134" fill="#425779" font-size="10" font-weight="700">Semaine</text>
+        <path d="m658 127-4 4-4-4" stroke="#425779" stroke-width="1.3"/>
+        <g font-size="11">
+          <text x="109" y="139" fill="#B9C5D7">Vue d’ensemble</text>
+          <rect x="74" y="154" width="124" height="33" rx="6" fill="#3C5478"/>
+          <text x="109" y="175" fill="#FFFFFF" font-weight="700">Planning</text>
+          <text x="109" y="211" fill="#B9C5D7">Documents</text>
+          <text x="109" y="247" fill="#B9C5D7">Équipe</text>
+        </g>
+        <g stroke="#B9C5D7" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="85" y="129" width="12" height="12" rx="2"/><path d="M85 135H97M91 129V141"/>
+          <rect x="85" y="163" width="12" height="12" rx="2"/><path d="M85 167H97M89 161V165M93 161V165"/>
+          <path d="M85 202H90L92 205H97V213H85Z"/>
+          <circle cx="91" cy="240" r="3"/><path d="M85 249C85 243 97 243 97 249"/>
+        </g>
+        <rect x="236" y="176" width="437" height="180" rx="7" fill="#FFFFFF" stroke="#E3E6EB"/>
+        <path d="M236 208H673M323 176V356M411 176V356M499 176V356M587 176V356M236 256H673M236 304H673" stroke="#EBEDF0"/>
+        <g font-size="10" fill="#778393" text-anchor="middle">
+          <text x="279" y="196">LUN.</text><text x="367" y="196">MAR.</text><text x="455" y="196">MER.</text><text x="543" y="196">JEU.</text><text x="630" y="196">VEN.</text>
+        </g>
+        <rect x="246" y="221" width="153" height="26" rx="5" fill="#E2E8F6"/>
+        <path d="M250 227V241" stroke="#647FAE" stroke-width="3" stroke-linecap="round"/>
+        <text x="261" y="238" fill="#425D8B" font-size="10">Réunion d’équipe</text>
+        <rect x="423" y="269" width="151" height="26" rx="5" fill="#F5E5D9"/>
+        <path d="M427 275V289" stroke="#C49069" stroke-width="3" stroke-linecap="round"/>
+        <text x="438" y="286" fill="#8A6447" font-size="10">Suivi des dossiers</text>
+        <rect x="334" y="317" width="153" height="26" rx="5" fill="#E2ECE6"/>
+        <path d="M338 323V337" stroke="#80A18D" stroke-width="3" stroke-linecap="round"/>
+        <text x="349" y="334" fill="#547B62" font-size="10">Documents partagés</text>
+      </g>
+    </g>
+  </g>
+  <g filter="url(#shadow)" font-family="Arial,Helvetica,sans-serif">
+    <rect x="32" y="286" width="188" height="113" rx="10" fill="#FFFFFF"/>
+    <text x="48" y="309" fill="#8993A0" font-size="9" font-weight="700" letter-spacing="1">ESPACE ENTREPRISE</text>
+    <rect x="42" y="319" width="168" height="33" rx="6" fill="#EBEFF6"/>
+    <rect x="49" y="326" width="19" height="19" rx="5" fill="#45638D"/>
+    <path d="M54 332H63M54 336H60M54 340H63" stroke="#FFFFFF" stroke-width="1.2"/>
+    <text x="77" y="340" fill="#334C70" font-size="11" font-weight="700">Mon entreprise</text>
+    <path d="m189 335 3 3 6-7" stroke="#45638D" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="49" y="364" width="19" height="19" rx="5" fill="#EEE6DC"/>
+    <path d="M54 370H63M54 374H60M54 378H63" stroke="#A28768" stroke-width="1.2"/>
+    <text x="77" y="378" fill="#7B8694" font-size="11">Autre organisation</text>
+  </g>
+</svg>
