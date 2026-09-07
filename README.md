@@ -12,6 +12,8 @@ Semantic HTML, TypeScript and Vite. Locally hosted Inter and Cormorant Garamond.
 - Five project studies with direct hash links and keyboard-accessible native dialogs
 - Responsive layouts and reduced-motion support
 - Real portrait and a local-development screenshot of SignBridge
+- GL Lifestyle+ product showcase with official store links and attributed promotional images
+- Product-first case studies with optional technical details, plus an editorial approach and experience section
 - GitHub Pages deployment from the prebuilt `docs/` folder, after a local typecheck and production build
 
 ## Development
@@ -32,4 +34,4 @@ GitHub Pages serves `main:/docs`. The source is included alongside the reviewed 
 
 Professional projects are high-level accounts of team contributions. Their proprietary source, customer data and internal screens are not included. SignBridge recognition is experimental; AIEN is a foundation-stage project. This portfolio does not imply that either is a validated production AI system.
 
-Photographs, résumé and personal content belong to Hiếu Trần. Project names belong to their respective owners.
+Photographs, résumé and personal content belong to Hiếu Trần. Project names belong to their respective owners. GL Lifestyle+ promotional images belong to Gamuda; original sources and market-specific context are recorded in [`public/images/gl-lifestyle/SOURCES.md`](public/images/gl-lifestyle/SOURCES.md).
