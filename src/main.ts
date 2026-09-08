@@ -9,7 +9,7 @@ const vi: Record<string, string> = {
   toolkitSystems:'Kết nối hệ thống',toolkitSystemsNote:'Kiến thức nền về microservices, phân chia dịch vụ, tác vụ nền và tích hợp API. Có hiểu biết về quy trình trao đổi tệp qua SFTP.',
   skip:'Đến nội dung chính',navWork:'Dự án',navAbout:'Giới thiệu',navContact:'Liên hệ',
   heroOne:'Từ ý tưởng',heroTwo:'đến điều có ích.',
-  heroIntro:'Mình là Hiếu Trần — luôn tò mò và thích làm điều mới tại Đà Nẵng. Mình kết nối con người, ý tưởng và công nghệ để công việc hằng ngày tốt hơn một chút.',
+  heroIntro:'Mình là Hieu Tran, lập trình viên full-stack tại Đà Nẵng. Mình tham gia phát triển giao diện, backend và tích hợp hệ thống cho phần mềm quản lý doanh nghiệp tại Pháp và ứng dụng dành cho khách hàng tại Việt Nam.',
   explore:'Khám phá dự án',resume:'Xem CV',portraitCaption:'Một chút tò mò, nhiều điều để khám phá.',
   capabilityOne:'Sản phẩm số',capabilityTwo:'AI & tự động hóa',capabilityThree:'Giải quyết vấn đề thực tế',
   selectedWork:'Nhiều lĩnh vực.',workEmphasis:'Cùng sự tò mò.',workSubtitle:'Học tập, cộng đồng, vận hành — một số sản phẩm mình đã góp phần xây dựng.',
@@ -116,11 +116,11 @@ function updateLanguage(next: Language) {
   document.querySelector('.close-dialog')!.setAttribute('aria-label', next === 'en' ? 'Close project details' : 'Đóng chi tiết dự án');
   document.querySelector('nav')!.setAttribute('aria-label',next === 'en' ? 'Main navigation' : 'Điều hướng chính');
   document.querySelector('.project-image')!.setAttribute('aria-label',next === 'en' ? 'Read the SignBridge case study' : 'Xem chi tiết dự án SignBridge');
-  document.querySelector('.portrait img')!.setAttribute('alt',next === 'en' ? 'Hiếu Trần standing on stone steps in front of a historic building' : 'Hiếu Trần đứng trên bậc đá trước một tòa nhà cổ');
+  document.querySelector('.portrait img')!.setAttribute('alt',next === 'en' ? 'Hieu Tran standing on stone steps in front of a historic building' : 'Hieu Tran đứng trên bậc đá trước một tòa nhà cổ');
   document.querySelector('.project-image img')!.setAttribute('alt',next === 'en' ? 'SignBridge learning interface showing Vietnamese sign-language lesson categories' : 'Giao diện SignBridge với các nhóm bài học ngôn ngữ ký hiệu Việt Nam');
   document.querySelector('.roberp-art img')!.setAttribute('alt',next === 'en' ? 'Conceptual ROBERP interface with company switching and weekly planning' : 'Giao diện ROBERP cách điệu với bộ chọn công ty và lịch làm việc');
   document.querySelector('.about-art')!.setAttribute('alt',next === 'en' ? 'An idea sketch, an interface and the services behind it' : 'Minh họa từ phác thảo ý tưởng đến giao diện và phần xử lý phía sau');
-  document.title = next === 'en' ? 'Hiếu Trần — Ideas into useful things' : 'Hiếu Trần — Từ ý tưởng đến điều có ích';
+  document.title = next === 'en' ? 'Hieu Tran — Full-stack Developer' : 'Hieu Tran — Lập trình viên Full-stack';
   document.querySelector('#copy-status')!.textContent = '';
   if (activeProject) renderProject(activeProject);
   try { localStorage.setItem('hieu-language',next); } catch { /* Storage is optional. */ }

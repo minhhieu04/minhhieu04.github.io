@@ -1,6 +1,6 @@
-# Hiếu Trần — personal portfolio
+# Hieu Tran — personal portfolio
 
-An expressive, bilingual portfolio about connecting people, ideas and technology. Selected work across learning, community services and everyday operations, with an open-minded approach to different roles and industries.
+A bilingual portfolio presenting frontend, backend and integration work on business management software in France, customer-facing applications in Vietnam, and personal projects in learning and accessibility.
 
 [Visit the portfolio](https://minhhieu04.github.io/). Local preview: **http://localhost:5177/**.
 
