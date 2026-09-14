@@ -1,0 +1,7 @@
+.enterprise-art{margin:0;background:#e8e9ed;padding:2rem;display:flex;flex-direction:column;justify-content:center;min-height:280px}
+.enterprise-art img{width:100%;height:auto;display:block}
+.enterprise-art figcaption{font-size:.75rem;color:#526175;margin-top:1.25rem;text-align:center}
+.customer-highlight{border:1px solid #ccd0da;border-radius:12px;margin:2rem 0;padding:clamp(1.5rem,4vw,3rem);background:#eef0ec}
+.customer-highlight h3{font-size:clamp(1.8rem,3vw,2.5rem);margin:.7rem 0}
+.customer-highlight h4{font-size:1.2rem;margin:.5rem 0;font-weight:500}
+.customer-highlight p{max-width:55ch;margin:1rem 0 1.5rem}
